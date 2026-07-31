@@ -2,3 +2,4 @@
 <p>Machine learning web application built with Streamlit and TensorFlow for identifying potato leaf diseases (EE04 Engineering Project)</p>
 Innocent, Ugochukwu Anthony 
 23/EG/EE/041
+Department of electrical/electronic engineering 
