@@ -106,7 +106,7 @@ if uploadedfile is not None:
             else:
                 classifier = loadclassifier()
                 if classifier is None:
-                    st.error("Model file was not found. Place model.keras in the app directory and reload.")
+                    st.error("Model file not found")
                 else:
                     resizedforprediction = uploadedimage.resize((224, 224))
                     predictionarray = np.array(resizedforprediction) / 255.0
@@ -116,7 +116,7 @@ if uploadedfile is not None:
                     if predictionscore > 0.60:
                         st.success(f"Prediction: Healthy Leaf (Confidence: {predictionscore*100:.1f}%)")
                     elif predictionscore < 0.40:
-                        st.error(f"Prediction: Early Blight Detected (Confidence: {(1-predictionscore)*100:.1f}%)")
+                        st.error(f"Prediction: Early Blight (Confidence: {(1-predictionscore)*100:.1f}%)")
                     else:
                         st.warning("Uncertain Prediction: The EE04 project cannot confidently classify this image. Please provide a clearer leaf picture or single photo of the leaf for better results")
 
