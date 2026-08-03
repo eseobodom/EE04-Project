@@ -1,6 +1,3 @@
-<h1>EE04 Project</h1>
-Machine learning web application built with Streamlit and TensorFlow for identifying potato leaf diseases
-
 <h1>EE04 Project: Potato Leaf Disease Classifier</h1>
 
 <p>A Streamlit web app that uses a TensorFlow model to check if a potato leaf is healthy or has early blight</p>
@@ -189,7 +186,7 @@ finished tool for real world crop checks
 This is a class project built to understand how a leaf disease classifier works end to end. It is a leaf health checker built for potato farming. A user uploads a photo and the app gives a quick read on whether the leaf looks healthy or shows early blight. It works under limited conditions, so it is best treated as a prototype for learning, not a tool to base real decisions on
 </p>
 
-<h3dtwinsprince</h3>
+<h3>dtwinsprince</h3>
 <p>
 The project is a prototype for detecting early blight from a potato leaf photo. It is meant to help
 catch early blight sooner, giving farmers a quicker first read on their crop's condition. But its results should be treated as a demonstration rather than something dependable for an actual crop
