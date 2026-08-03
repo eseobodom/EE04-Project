@@ -106,7 +106,7 @@ if uploadedfile is not None:
             else:
                 classifier = loadclassifier()
                 if classifier is None:
-                    st.error("Model file was not found. Place model.keras in the app directory and reload.")
+                    st.error("Model file not found")
                 else:
                     resizedforprediction = uploadedimage.resize((224, 224))
                     predictionarray = np.array(resizedforprediction) / 255.0
